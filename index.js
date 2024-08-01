@@ -1,78 +1,66 @@
-let i1 = document.getElementById("t1");
-let i2 = document.getElementById("t2");
+let tOne = document.getElementById("t1");
+let tTwo = document.getElementById("t2");
 
 let score1 = 0;
 let score2 = 0;
 
 function five() {
-  let add = (score1 += 5);
-  i1.innerText = add;
+  score1 = score1 + 5;
+  tOne.innerText = score1;
 }
-five();
 
 function three() {
-  let add = (score1 += 3);
-  i1.innerText = add;
+  score1 = score1 + 3;
+  tOne.innerText = score1;
 }
-three();
 
 function one() {
-  let add = (score1 += 1);
-  i1.innerText = add;
+  score1 = score1 + 1;
+  tOne.innerText = score1;
 }
-one();
 
 function five1() {
-  score2 += 5;
-  i2.innerText = score2;
+  score2 = score2 + 5;
+  tTwo.innerText = score2;
 }
-five1();
 
 function three1() {
-  score2 += 3;
-  i2.innerText = score2;
+  score2 = score2 + 3;
+  tTwo.innerText = score2;
 }
-three1();
 
 function one1() {
-  score2 += 1;
-  i2.innerText = score2;
+  score2 = score2 + 1;
+  tTwo.innerText = score2;
 }
-one1();
 
 // Minus concepts
 function minus5() {
-  let add = (score1 -= 5);
-  i1.innerText = add;
+  score1 = score1 - 5;
+  tOne.innerText = score1;
 }
-five();
 
 function minus3() {
-  let add = (score1 -= 3);
-  i1.innerText = add;
+  score1 = score1 - 3;
+  tOne.innerText = score1;
 }
-three();
 
 function minus1() {
-  let add = (score1 -= 1);
-  i1.innerText = add;
+  score1 = score1 - 1;
+  tOne.innerText = score1;
 }
-one();
 
 function minusFive() {
-  score2 -= 5;
-  i2.innerText = score2;
+  score2 = score2 - 5;
+  tTwo.innerText = score2;
 }
-five1();
 
 function minusThree() {
-  score2 -= 3;
-  i2.innerText = score2;
+  score2 = score2 - 3;
+  tTwo.innerText = score2;
 }
-three1();
 
 function minusOne() {
-  score2 -= 1;
-  i2.innerText = score2;
+  score2 = score2 - 1;
+  tTwo.innerText = score2;
 }
-one1();

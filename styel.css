@@ -24,6 +24,9 @@
   width: 50px;
   margin-bottom: 10px;
 }
+.second h1 {
+  font-size: 60px;
+}
 .third button {
   background-color: teal;
   border: none;
@@ -35,7 +38,12 @@
 .third {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
+.third h1 {
+  font-size: 60px;
+}
+
 #t1 {
   height: 80px;
   width: 200px;
