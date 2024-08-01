@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .main {
+        text-align: center;
+      }
+      .first {
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        height: 400px;
+        width: 500px;
+        background-color: cadetblue;
+        border: 2px solid black;
+        border-radius: 20px;
+      }
+      .second {
+        display: flex;
+        flex-direction: column;
+      }
+      .second button {
+        background-color: teal;
+        border: none;
+        border-radius: 10px;
+        height: 30px;
+        width: 50px;
+        margin-bottom: 10px;
+      }
+      .third button {
+        background-color: teal;
+        border: none;
+        border-radius: 10px;
+        height: 30px;
+        width: 50px;
+        margin-bottom: 10px;
+      }
+      .third {
+        display: flex;
+        flex-direction: column;
+      }
+      #t1 {
+        height: 80px;
+        width: 200px;
+        margin-bottom: 40px;
+        border: 2px solid blanchedalmond;
+      }
+      #t2 {
+        height: 80px;
+        width: 200px;
+        margin-bottom: 40px;
+        border: 2px solid blanchedalmond;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Scoreboard</h1>
+    </div>
+    <div class="first">
+      <div class="second">
+        <h4>Team 1</h4>
+        <p id="t1">0</p>
+        <div>
+          <button onclick="five()">+5</button>
+          <button onclick="three()">+3</button>
+          <button onclick="one()">+1</button>
+        </div>
+        <div>
+          <button onclick="minus5()">-5</button>
+          <button onclick="minus3()">-3</button>
+          <button onclick="minus1()">-1</button>
+        </div>
+      </div>
+      <div class="third">
+        <h4>Team 2</h4>
+        <p id="t2">0</p>
+        <div>
+          <button onclick="five1()">+5</button>
+          <button onclick="three1()">+3</button>
+          <button onclick="one1()">+1</button>
+        </div>
+        <div>
+          <button onclick="minusFive()">-5</button>
+          <button onclick="minusThree()">-3</button>
+          <button onclick="minusOne()">-1</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
